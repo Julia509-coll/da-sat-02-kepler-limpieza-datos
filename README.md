@@ -6,6 +6,10 @@
 
 ---
 
+**Johannes Kepler encontró orden en el aparente caos de las órbitas planetarias. Sus leyes transformaron trayectorias erráticas en elipses perfectas. Así es la limpieza de datos: encontrar la estructura oculta, pulir las imperfecciones, transformar el ruido en señal clara. Los datos nunca llegan puros; tu labor es revelar su verdadera forma.**
+
+---
+
 ## ¿Qué es Kepler?
 
 **Kepler es el Proyecto 2 del itinerario de Data Analyst.** Aquí aprenderás los fundamentos de Python aplicados al análisis de datos.
