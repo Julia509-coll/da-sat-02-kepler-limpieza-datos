@@ -25,8 +25,79 @@ enero = 4500
 febrero = 5200
 marzo = 4800
 # ... completa los demás meses
+abril = 5100
+ mayo = 5300
+junio = 4700
+julio = 4900
+agosto = 5200
+septiembre = 5000
+octubre = 5100
+noviembre = 4800
+diciembre = 5500
 
 # Tu código aquí
+# Calcular total
+total = (enero + febrero + marzo + abril + mayo + junio +
+         julio + agosto + septiembre + octubre + noviembre + diciembre)
+
+ print ("total:" , total)        
+
+# Promedio
+promedio = total / 12
+print("promedio:" , promedio)
+
+
+# Encontrar mes con mayor venta
+mayor = enero
+mes = "enero"
+
+if febrero > mayor:
+    mayor = febrero
+    mes = "febrero"
+
+if marzo > mayor:
+    mayor = marzo
+    mes = "marzo"
+
+if abril > mayor:
+    mayor = abril
+    mes = "abril"
+
+if mayo > mayor:
+    mayor = mayo
+    mes = "mayo"
+
+if junio > mayor:
+    mayor = junio
+    mes = "junio"
+
+
+if julio > mayor:
+    mayor = julio
+    mes = "julio"
+
+if agosto > mayor:
+    mayor = agosto
+    mes = "agosto"
+
+if septiembre > mayor:
+    mayor = septiembre
+    mes = "septiembre"
+
+if octubre > mayor:
+    mayor = octubre
+    mes = "octubre"
+
+if noviembre > mayor:
+    mayor = noviembre
+    mes = "noviembre"
+
+if diciembre > mayor:
+    mayor = diciembre
+    mes = "diciembre"
+
+print("El mes con mayor venta fue:", mes)
+print("Ventas:", mayor)                                   
 ```
 
 ### Pistas
@@ -46,7 +117,6 @@ marzo = 4800
 ### Enunciado
 
 Crea una función que clasifique préstamos según días transcurridos:
-
 - 0-21 días: "A tiempo"
 - 22-30 días: "Retraso leve" (penalización: 0.50€/día extra)
 - Más de 30 días: "Retraso grave" (penalización: 1.00€/día extra)
